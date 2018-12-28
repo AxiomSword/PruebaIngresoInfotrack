@@ -46,17 +46,9 @@ class Grades extends Component {
   };
 
   registerGrade = () => {
-    axios
-      .post(`${API_URL}/Grades`, this.state.grade)
-      .then(res => {
-        this.resetState();
-        this.setSnackbarMessage('Nota registrada exitósamente.');
-      })
-      .catch(err => {
-        this.setSnackbarMessage(
-          'Error conectando con el servidor, verifique el servidor o recargue la página.'
-        );
-      });
+    axios.post(`${API_URL}/Grades`, this.state.grade).then(res => {
+      this.resetState();
+    });
   };
 
   resetState = () => {

@@ -45,3 +45,13 @@ Se implementó el patrón Data Transfer Object (DTO) de dos formas:
 * StudentDTO: Para transferir solo los atributos necesarios de una entidad desde la capa de acceso de datos hasta la capa de presentación, reduciendo el tamaño de la carga enviada en la respuesta.
 
 * GradeDTO: Para transferir atributos de varias entidades en un solo objeto desde la capa de acceso de datos hasta la capa de presentación. De esta manera se envían solo los atributos necesarios en un solo paquete, reduciendo el número de peticiones al servidor web.
+
+## Capturas de pantalla
+
+![Alumnos](https://i.imgur.com/PsCkShF.png)
+
+![Materias](https://i.imgur.com/rh9A92O.png)
+
+![Registrar notas](https://i.imgur.com/dHXd0zT.png)
+
+![Informe estudiantes](https://i.imgur.com/QdlmaGd.png)
