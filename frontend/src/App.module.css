@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.App {
+  margin: 0;
+}
+
+.Students, .Subjects, .Grades, .StudentReport {
+  margin-left: 50px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.App .create-student-button {
+  margin-bottom: 30px;
+}
+
+.App .submit-button {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.App .delete-button {
+  cursor: pointer;
+}
+
+.App .StudentReport .red {
+  color: red;
+}
+
+.App .StudentReport .green {
+  color: green;
+}
