@@ -23,8 +23,25 @@ El componente principal es App.js, y en la carpeta Components se encuentran los 
 
 ## Backend
 
-El backend consiste en una Web Api en ASP.NET, que utiliza la versión 4.7.2 de .NET Framework. Para crear la base de datos se utiliza el enfoque Code First de Entity Framework 6.
+El backend consiste en una Web Api en ASP.NET, que utiliza la versión 4.7.2 de .NET Framework. Para crear la base de datos se utiliza el enfoque Code First de Entity Framework 6. La estructura principal del backend es la siguiente:
 
+BusinessLayer  
++---Controllers  
++---+---GradesController.cs  
++---+---StudentsController.cs  
++---+---SubjectsController.cs  
+DataAccessLayer  
++---Models  
++---+---Student.cs  
++---+---Subjects.cs  
++---+---Grade.cs  
++---+---StudentDTO.cs  
++---+---GradeDTO.cs  
++---StudentBO.cs  
++---SubjectBO.cs  
++---GradeBO.cs  
++---backendContext.cs  
+        
 ## Arquitectura en capas
 
 Se implementó una arquitectura de tres capas:
