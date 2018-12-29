@@ -58,7 +58,7 @@ class StudentReport extends Component {
           <TableCell classes={{ root: styles.green }}>{average}</TableCell>
         );
       } else {
-        return <TableCell classes={{ root: styles.red }}>{average}</TableCell>;
+        return <TableCell>{average}</TableCell>;
       }
     } else {
       return null;
