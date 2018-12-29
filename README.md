@@ -5,7 +5,8 @@ Prueba de ingreso para aspirar al puesto de Desarrollador Junior en Infotrack S.
 
 La aplicación consiste en un CRUD con las entidades Alumno, Materia y Notas.
 
-_**Nota:** El código ya se encuentra en el repositorio, sin embargo estoy realizando el deploy del backend a Azure, y del frontend a GitHub Pages, para que la aplicación se pueda probar más fácilmente. Pronto publicaré las URLs._
+## Demo en línea
+## https://axiomsword.github.io/PruebaIngresoFrontend/
 
 ## Frontend
 
